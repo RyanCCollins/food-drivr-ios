@@ -10,7 +10,6 @@ target 'hackathon-for-hunger' do
   pod 'FBSDKLoginKit'
   pod 'FBSDKShareKit'
   pod 'SlideMenuControllerSwift'
-  pod 'Fabric'
   pod 'TwitterKit'
   pod 'TwitterCore'
   pod 'SwiftyJSON'
@@ -18,6 +17,8 @@ target 'hackathon-for-hunger' do
   pod 'NVActivityIndicatorView', '~> 2.5'
   pod 'PromiseKit'
   pod 'ObjectMapper', '~> 1.3'
+  pod 'Fabric'
+  pod 'Crashlytics'
 end
 
 

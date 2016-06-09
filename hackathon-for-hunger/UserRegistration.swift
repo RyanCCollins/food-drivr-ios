@@ -15,9 +15,6 @@ enum RegistrationRole: Int{
     case Other = 2
 }
 struct UserRegistration {
-    
-
-    
     var name: String?
     var address: String?
     var phone: String?

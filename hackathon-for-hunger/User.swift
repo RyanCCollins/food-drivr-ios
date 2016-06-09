@@ -28,6 +28,7 @@ class User: Object, Mappable {
     dynamic var phone: String?
     dynamic var role = 0
     dynamic var settings: Setting?
+
     
     var userRole: UserRole {
         get{

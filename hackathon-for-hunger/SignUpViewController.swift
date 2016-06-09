@@ -18,12 +18,6 @@ class SignUpViewController: UIViewController {
         addImageViewGestureRecognizer(imageViews)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
     @IBAction func cancelButtonClicked(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
